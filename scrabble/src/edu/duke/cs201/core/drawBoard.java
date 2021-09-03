@@ -17,6 +17,7 @@ public class drawBoard implements Runnable{
 		f.add(panel);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setVisible(true);
+		f.setResizable(false);
 	}
 
 	public void run() {

@@ -10,7 +10,7 @@ public class drawBoard implements Runnable{
 	JPanel panel;
 
 	public drawBoard() {
-		f = new JFrame();
+		f = new JFrame("scrabble");
 		t = new Thread(this);
 		t.start();
 		panel = new JPanel();

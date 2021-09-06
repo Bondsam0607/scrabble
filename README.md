@@ -8,3 +8,22 @@
 ## Format of `board.txt`
 1. use '*' to represent blank blocks
 2. use letters to represent letter blocks
+
+## Example
+
+```
+* * * * * * * * * *
+* * * * A * * * * *
+* * * * B * * * * *
+* * * * O * * * * *
+* * * * U * * * * *
+* * * * T E A C H *
+* * * * * * * * * *
+* * * * * * * * * *
+* * * * * * * * * *
+* * * * * * * * * *
+```
+
+A `board.txt` as above will generate a board as below.
+
+![board](board.png)

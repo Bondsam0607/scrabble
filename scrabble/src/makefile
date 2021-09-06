@@ -12,4 +12,4 @@ default: classes
 classes: $(CLASSES:.java=.class)
 
 clean:
-	$(RM) *.class
+	$(RM) edu/duke/cs201/core/*.class
